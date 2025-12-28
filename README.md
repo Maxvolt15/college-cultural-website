@@ -1,8 +1,6 @@
 # Verbena Cultural Committee Website
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b5c7e3a9-1a2b-4c5d-6e7f-8g9h0i1j2k3l/deploy-status)](https://warm-otter-897929.netlify.app/)
-
-## 📖 Project Overview
+## Project Overview
 
 This repository hosts the official website for the **Verbena Cultural Committee** of Techno India Hooghly. Originally developed in 2021, this platform serves as the digital face of the committee, dedicated to promoting and archiving cultural activities within the college.
 
@@ -12,7 +10,7 @@ Since its inception in 2006, the Verbena Committee has been responsible for orga
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 - **Dynamic Event Showcase:** A visually engaging landing page featuring a carousel of upcoming and past events (e.g., The Anupam Roy Band performance).
 - **Immersive Galleries:** Dedicated sub-pages for specific events (15th August, Blood Donation Camps, Sports) equipped with **Lightbox** integration for a seamless photo viewing experience.
@@ -23,7 +21,7 @@ Since its inception in 2006, the Verbena Committee has been responsible for orga
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Frontend
 
@@ -45,7 +43,7 @@ Since its inception in 2006, the Verbena Committee has been responsible for orga
 
 ---
 
-## 🏗 Project Architecture
+## Project Architecture
 
 The project follows a **Multi-Page Application (MPA)** architecture where distinct sections of the site exist as separate HTML files, linked together by a central navigation system.
 
@@ -69,7 +67,7 @@ root/
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 To run this project locally, especially to test the PHP forms, you will need a local server environment.
 
@@ -103,7 +101,7 @@ To run this project locally, especially to test the PHP forms, you will need a l
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions to improve the site or update gallery content are welcome!
 
@@ -115,6 +113,6 @@ Contributions to improve the site or update gallery content are welcome!
 
 ---
 
-## 📄 License
+## License
 
 This project is open-source and available under the [MIT License](LICENSE).
