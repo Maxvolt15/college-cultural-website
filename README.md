@@ -14,31 +14,34 @@ Since its inception in 2006, the Verbena Committee has been responsible for orga
 
 ## ✨ Key Features
 
--   **Dynamic Event Showcase:** A visually engaging landing page featuring a carousel of upcoming and past events (e.g., The Anupam Roy Band performance).
--   **Immersive Galleries:** Dedicated sub-pages for specific events (15th August, Blood Donation Camps, Sports) equipped with **Lightbox** integration for a seamless photo viewing experience.
--   **Committee Member Directory:** A specialized section profiling the team behind the events, fostering transparency and connection.
--   **Interactive Contact Forms:** Integrated PHP-based forms allowing visitors to send inquiries or book event tickets/tables directly through the site.
--   **Responsive Design:** Fully optimized for desktops, tablets, and mobile devices using the **Bootstrap** framework.
--   **User Portal Prototype:** Includes frontend templates for Login and Registration pages (UI/UX demonstration).
+- **Dynamic Event Showcase:** A visually engaging landing page featuring a carousel of upcoming and past events (e.g., The Anupam Roy Band performance).
+- **Immersive Galleries:** Dedicated sub-pages for specific events (15th August, Blood Donation Camps, Sports) equipped with **Lightbox** integration for a seamless photo viewing experience.
+- **Committee Member Directory:** A specialized section profiling the team behind the events, fostering transparency and connection.
+- **Interactive Contact Forms:** Integrated PHP-based forms allowing visitors to send inquiries or book event tickets/tables directly through the site.
+- **Responsive Design:** Fully optimized for desktops, tablets, and mobile devices using the **Bootstrap** framework.
+- **User Portal Prototype:** Includes frontend templates for Login and Registration pages (UI/UX demonstration).
 
 ---
 
 ## 🛠 Tech Stack
 
 ### Frontend
--   **Core:** HTML5, CSS3, JavaScript (ES6+)
--   **Framework:** [Bootstrap 5](https://getbootstrap.com/) (Grid system, Components)
--   **Styling:** Custom CSS with [SCSS](https://sass-lang.com/) assets
--   **Animations:** [Animate.css](https://animate.style/) for entry/exit transitions
+
+- **Core:** HTML5, CSS3, JavaScript (ES6+)
+- **Framework:** [Bootstrap 5](https://getbootstrap.com/) (Grid system, Components)
+- **Styling:** Custom CSS with [SCSS](https://sass-lang.com/) assets
+- **Animations:** [Animate.css](https://animate.style/) for entry/exit transitions
 
 ### Libraries & Plugins
--   **[Swiper.js](https://swiperjs.com/):** For touch-enabled, responsive sliders (Hero section).
--   **[GLightbox](https://github.com/biati-digital/glightbox):** A pure JavaScript lightbox for the gallery.
--   **[Isotope](https://isotope.metafizzy.co/):** For filtering and sorting gallery items.
+
+- **[Swiper.js](https://swiperjs.com/):** For touch-enabled, responsive sliders (Hero section).
+- **[GLightbox](https://github.com/biati-digital/glightbox):** A pure JavaScript lightbox for the gallery.
+- **[Isotope](https://isotope.metafizzy.co/):** For filtering and sorting gallery items.
 
 ### Backend
--   **Language:** PHP (v7.4+)
--   **Functionality:** Server-side handling of contact forms and email dispatch via `PHP Email Form` library.
+
+- **Language:** PHP (v7.4+)
+- **Functionality:** Server-side handling of contact forms and email dispatch via `PHP Email Form` library.
 
 ---
 
@@ -61,8 +64,8 @@ root/
 └── img/                    # Centralized Media Repository (Organized by event)
 ```
 
--   **Separation of Concerns:** Assets are categorized into `css`, `js`, and `vendor` directories within `home/assets/`.
--   **Modular Content:** Each major event has its own dedicated directory or HTML file within `gallery/` to maintain organized content.
+- **Separation of Concerns:** Assets are categorized into `css`, `js`, and `vendor` directories within `home/assets/`.
+- **Modular Content:** Each major event has its own dedicated directory or HTML file within `gallery/` to maintain organized content.
 
 ---
 
@@ -71,30 +74,32 @@ root/
 To run this project locally, especially to test the PHP forms, you will need a local server environment.
 
 ### Prerequisites
--   **Git**
--   A local web server with PHP support (e.g., **XAMPP**, **MAMP**, or **Apache**).
+
+- **Git**
+- A local web server with PHP support (e.g., **XAMPP**, **MAMP**, or **Apache**).
 
 ### Steps
 
-1.  **Clone the Repository**
+1. **Clone the Repository**
+
     ```bash
     git clone https://github.com/YOUR_USERNAME/verbena-committee-website.git
     ```
 
-2.  **Move to Web Server Directory**
-    -   If using XAMPP, move the project folder to `C:\xampp\htdocs\verbena-website`.
-    -   If using MAMP, move to `/Applications/MAMP/htdocs/verbena-website`.
+2. **Move to Web Server Directory**
+    - If using XAMPP, move the project folder to `C:\xampp\htdocs\verbena-website`.
+    - If using MAMP, move to `/Applications/MAMP/htdocs/verbena-website`.
 
-3.  **Configure PHP Mailer (Optional)**
-    -   Open `home/forms/contact.php`.
-    -   Update the `$receiving_email_address` with your actual email.
-    -   *(Advanced)* Uncomment and configure the SMTP settings if your local server doesn't support `mail()`.
+3. **Configure PHP Mailer (Optional)**
+    - Open `home/forms/contact.php`.
+    - Update the `$receiving_email_address` with your actual email.
+    - *(Advanced)* Uncomment and configure the SMTP settings if your local server doesn't support `mail()`.
 
-4.  **Run the Project**
-    -   Start your local server (Apache).
-    -   Open your browser and navigate to `http://localhost/verbena-website/index.html`.
+4. **Run the Project**
+    - Start your local server (Apache).
+    - Open your browser and navigate to `http://localhost/verbena-website/index.html`.
 
-_Note: If you only want to view the UI (without working forms), you can simply open `index.html` in any browser._
+*Note: If you only want to view the UI (without working forms), you can simply open `index.html` in any browser.*
 
 ---
 
@@ -102,11 +107,11 @@ _Note: If you only want to view the UI (without working forms), you can simply o
 
 Contributions to improve the site or update gallery content are welcome!
 
-1.  **Fork** the repository.
-2.  Create a **Feature Branch** (`git checkout -b feature/NewGallery`).
-3.  **Commit** your changes (`git commit -m 'Added photos for 2025 Fest'`).
-4.  **Push** to the branch (`git push origin feature/NewGallery`).
-5.  Open a **Pull Request**.
+1. **Fork** the repository.
+2. Create a **Feature Branch** (`git checkout -b feature/NewGallery`).
+3. **Commit** your changes (`git commit -m 'Added photos for 2025 Fest'`).
+4. **Push** to the branch (`git push origin feature/NewGallery`).
+5. Open a **Pull Request**.
 
 ---
 
